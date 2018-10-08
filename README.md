@@ -53,7 +53,7 @@ bash co_author.sh "${DISTFN}" "${K}" "${SEED}"
 ### Example
 
 ```sh
-> bash co_author.sh sipsnn 20 0
+> bash co_author.sh sipsnn 10 0
 3.6.1 |Anaconda custom (64-bit)| (default, May 11 2017, 13:09:58)
 [GCC 4.4.7 20120313 (Red Hat 4.4.7-1)]
 co_author_0.01_sipsnn_10_0  START
@@ -152,7 +152,7 @@ sys     14m17.583s
 ```
 
 ```sh
-> bash wordnet_animal.sh sips 20 0
+> bash wordnet_animal.sh sips 10 0
 3.6.1 |Anaconda custom (64-bit)| (default, May 11 2017, 13:09:58)
 [GCC 4.4.7 20120313 (Red Hat 4.4.7-1)]
 wordnet_animal_0.001_sips_10_0  START
