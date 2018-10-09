@@ -1,7 +1,7 @@
 SIPS : PyTorch implementation of the paper "Graph Embedding with Shifted Inner Product Similarity and Its Improved Approximation Capability"
 =======================================================
 
-**SIPS** is an open source implementation of the paper "[Graph Embedding with Shifted Inner Product Similarity and Its Improved Approximation Capability](https://github.com/kdrl/SIPS)".
+**SIPS** is an open source implementation of the paper "[Graph Embedding with Shifted Inner Product Similarity and Its Improved Approximation Capability](https://arxiv.org/abs/1810.03463)".
 
 ## Requirements & Environment
 
@@ -229,7 +229,7 @@ If you find this code useful for your research, please cite the following paper 
      author = {Akifumi Okuno and
                Geewook Kim and
                Hidetoshi Shimodaira},
-     journal = {arXiv preprint},
+     journal = {arXiv preprint arXiv:1810.03463},
      Year = {2018}
     }
 
