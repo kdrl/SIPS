@@ -1,7 +1,7 @@
 SIPS : PyTorch implementation of the paper "Graph Embedding with Shifted Inner Product Similarity and Its Improved Approximation Capability"
 =======================================================
 
-**SIPS** is an open source implementation of the paper "[Graph Embedding with Shifted Inner Product Similarity and Its Improved Approximation Capability](https://arxiv.org/abs/1810.03463)". AISTATS2019.
+**SIPS** is an open source implementation of the paper "[Graph Embedding with Shifted Inner Product Similarity and Its Improved Approximation Capability](http://proceedings.mlr.press/v89/okuno19a.html)". AISTATS2019.
 
 ## Requirements & Environment
 
@@ -224,15 +224,24 @@ Our code builds upon [Facebook's poincare-embeddings](https://github.com/faceboo
 
 If you find this code useful for your research, please cite the following paper in your publication:
 
-    @article{sips,
-     title = {Graph Embedding with Shifted Inner Product Similarity and Its Improved Approximation Capability},    
-     author = {Akifumi Okuno and
-               Geewook Kim and
-               Hidetoshi Shimodaira},
-     journal = {arXiv preprint arXiv:1810.03463},
-     Year = {2018}
+    @InProceedings{pmlr-v89-okuno19a,
+      title = 	 {Graph Embedding with Shifted Inner Product Similarity and Its Improved Approximation Capability},
+      author = 	 {Okuno, Akifumi and Kim, Geewook and Shimodaira, Hidetoshi},
+      booktitle = 	 {Proceedings of Machine Learning Research},
+      pages = 	 {644--653},
+      year = 	 {2019},
+      editor = 	 {Chaudhuri, Kamalika and Sugiyama, Masashi},
+      volume = 	 {89},
+      series = 	 {Proceedings of Machine Learning Research},
+      address = 	 {},
+      month = 	 {16--18 Apr},
+      publisher = 	 {PMLR},
+      pdf = 	 {http://proceedings.mlr.press/v89/okuno19a/okuno19a.pdf},
+      url = 	 {http://proceedings.mlr.press/v89/okuno19a.html},
+      abstract = 	 {We propose shifted inner-product similarity (SIPS), which is a novel yet very simple extension of the ordinary inner-product similarity (IPS) for neural-network based graph embedding (GE). In contrast to IPS, that is limited to approximating positive-definite (PD) similarities, SIPS goes beyond the limitation by introducing bias terms in IPS; we theoretically prove that SIPS is capable of approximating not only PD but also conditionally PD (CPD) similarities with many examples such as cosine similarity, negative Poincare distance and negative Wasserstein distance. Since SIPS with sufficiently large neural networks learns a variety of similarities,  SIPS alleviates the need for configuring the similarity function of GE. Approximation error rate is also evaluated, and experiments on two real-world datasets demonstrate that graph embedding using SIPS indeed outperforms existing methods.}
     }
 
+- [Paper](http://proceedings.mlr.press/v89/okuno19a.html)
 
 ## License
 
